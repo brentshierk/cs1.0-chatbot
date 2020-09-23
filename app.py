@@ -1,43 +1,3 @@
-# inputs = []
-# response1 = []
-# def interactionStart():
-    
-#     user_inputs = str(input('So I herd you like programming'))
-#     splitStr = user_inputs.split(' ')
-#     print(splitStr)
-#     inputs = splitStr
-
-#     for word in splitStr:
-#         if word == 'yes' or word == 'yeah':
-#             print('thats super cool')
-#         else:
-#             print('i guess thats all then')
-    
-# interactionStart()
-
-# def secondInteraction():
-
-#     getLang = str(input('So whats your favorite language?'))
-#     splitStr = getLang.split(' ')
-#     print(splitStr)
-#     inputs = splitStr
-
-#     for word in splitStr:
-#         if word == 'python':
-#             print('I love python')
-#         elif word == 'javascript':
-#             print('I love javascript!')
-#         else:
-#             print('im not fimilar with that language')
-            
-# secondInteraction()
-
-# def funFact():
-#         user_input = str(input('Do you want to hear a fun fact about {getLang}'))
-#         if user_input == 'yes':
-#             print('heres your fact...')
-#         else:
-#             print('your missing out i got some really good facts')
 
 user_response = str(input('hey! I herd you like programming : '))
 def get_bot_response(user_response):
@@ -78,10 +38,7 @@ def get_bot_response(user_response):
 
     
 
-    while True:
-        user_response = input('Well I had a great time talking about programming, enter done if you would like to end the conversation or anything if you would like to continue')
-        if user_response == 'done':
-            break
+    
     
     
 get_bot_response(user_response)
